@@ -16,6 +16,13 @@
       display: flex;
       align-items: center;
 }
+.jobs-sort span{
+      display: flex;
+      align-items: center;
+}
+.jobs-sort span button{
+      padding: 2px !important;
+}
 .jobs-sort h4{
       font-size: 15px;
       color: rgb(255, 90, 30);
@@ -29,6 +36,7 @@
 .jobs-tabs{
       border: 1px solid #d4d4d4;
       height: 400px;
+      overflow: auto;
 }
 .jobs-tabs .react-tabs__tab-list {
       background-color: #ebebeb;
@@ -62,8 +70,11 @@
 }
 .job-tab-information{
       display: flex;
-      justify-content: space-between;
-      width: 230px;
+      justify-content: flex-start;
+      width: 310px !important;
+}
+.job-tab-data{
+      margin-left: 10px;
 }
 .job-tab-data h2{
       font-size: 16px;
@@ -89,6 +100,10 @@
 .job-tab-status span{
       font-size: 12px;
       color: #b8b8b8;
+}
+.job-tab-located{
+      width: 140px;
+      text-align: left;
 }
 .job-tab-status span{
       text-transform: uppercase;
@@ -147,7 +162,11 @@
       color: #3c3cfd;
       border: 1.5px solid #3c3cfd;
 }
-
+.jobs-not-found{
+      text-align: center;
+      margin-top: 30px;
+      color: #0a9ffb;
+}
 
 /* JOBS Accordion */
 .jobs-searching{
@@ -232,7 +251,12 @@
       transform: rotate(0deg);
 }
 
-
+.react-tabs__tab-panel {
+      overflow: hidden;
+}
+.jobs-tabs {
+      height: 400px;
+}
 /* Mobile Screen */
 @media screen and (max-width : 767px) {
       .find-container {
