@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IDSC-Task/static/css/main.53a13ae1.chunk.css",
+    "main.css": "/IDSC-Task/static/css/main.b5a63681.chunk.css",
     "main.js": "/IDSC-Task/static/js/main.2218584d.chunk.js",
     "main.js.map": "/IDSC-Task/static/js/main.2218584d.chunk.js.map",
     "runtime-main.js": "/IDSC-Task/static/js/runtime-main.bd0fb0f4.js",
@@ -10,14 +10,14 @@
     "static/js/2.10ac2588.chunk.js.map": "/IDSC-Task/static/js/2.10ac2588.chunk.js.map",
     "index.html": "/IDSC-Task/index.html",
     "static/css/2.88ab7ddb.chunk.css.map": "/IDSC-Task/static/css/2.88ab7ddb.chunk.css.map",
-    "static/css/main.53a13ae1.chunk.css.map": "/IDSC-Task/static/css/main.53a13ae1.chunk.css.map",
+    "static/css/main.b5a63681.chunk.css.map": "/IDSC-Task/static/css/main.b5a63681.chunk.css.map",
     "static/js/2.10ac2588.chunk.js.LICENSE.txt": "/IDSC-Task/static/js/2.10ac2588.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bd0fb0f4.js",
     "static/css/2.88ab7ddb.chunk.css",
     "static/js/2.10ac2588.chunk.js",
-    "static/css/main.53a13ae1.chunk.css",
+    "static/css/main.b5a63681.chunk.css",
     "static/js/main.2218584d.chunk.js"
   ]
 }
