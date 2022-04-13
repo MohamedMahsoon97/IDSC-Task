@@ -260,9 +260,14 @@
             flex-flow: row wrap;
             position: relative;
       }
+      .job-tab-data{
+            margin-left: 20px;
+      }
       .job-tab-information{
             margin-top: 10px;
             margin-bottom: 20px;
+            width: 100%;
+            justify-content: flex-start;
       }
       .job-tab-dots {
             position: absolute;
